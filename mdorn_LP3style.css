@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #808080;
+	color:#363636;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:100%;
+	margin: 0 auto;
+	
+}
+
+header {
+	width: 90%;
+	height:150px;
+	margin: 0 auto;
+	background-color:#ccc
+	vertical-align: middle;
+}
+
+main {
+	background:#f7f7f7;
+	min-height:1500px;
+	width:90%;
+	margin:auto;
+	padding-top:0px;
+}
+
+nav {
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+}
+
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding-right: 10px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#resume {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+#resume a {
+    color: #069;
+    text-decoration: none;
+}
+
+#resume a:hover {
+    text-decoration: underline;
+}
+
+#resume img {
+    padding-left: 25px;
+    width: 250px;
+    height: 250px;
+    opacity: .8;
+}
+
+#resume-sidebar {
+    width: 300px;
+    float: right;
+}
+
+
+h1 {
+	color: #000;
+	font-family: Verdana;
+	font-size:3em;
+	font-weight: 700;
+	text-align:center;
+}
+h2,h3,h4 {
+	text-align:center;
+	letter-spacing:-2px
+	padding-top: 35px;
+	padding-left: 20px;
+	color: #808080;
+	font-weight: 700;
+}
+
+#resume-sidebar h4 {
+    color: #000;
+    font-size: 1.25em;
+}
+
+p {
+	padding: 5px 0 5px 15px;
+}
+
+li {
+    margin-left: 50px;
+    line-height: 150%;
+}
+
+nav footer li {
+    list-style-type: none;
+    padding: 15px 0 5px 5px;
+}
+
+footer {
+    clear: both;
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #808080;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+table {
+	border-style: 1px solid #dddd;
+	text-align: left;
+	padding: 8px;
+}
+
+td, th {
+	border: 1px solid #dddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color:#808080
+}
+
+a {
+	text-decoration:none;
+	transition:all ease 0.5s;
+}
+a:hover {
+	color:red
+}
+footer {
+	position:bottom;
+	bottom:45px;
+	left:50%;
+}
